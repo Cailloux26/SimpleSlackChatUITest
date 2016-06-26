@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B2668861D1F901400B7ECF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668851D1F901400B7ECF1 /* AppDelegate.swift */; };
+		6B2668881D1F901400B7ECF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668871D1F901400B7ECF1 /* ViewController.swift */; };
+		6B26688B1D1F901400B7ECF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2668891D1F901400B7ECF1 /* Main.storyboard */; };
+		6B26688E1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B26688C1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld */; };
+		6B2668901D1F901400B7ECF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B26688F1D1F901400B7ECF1 /* Assets.xcassets */; };
+		6B2668931D1F901400B7ECF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2668911D1F901400B7ECF1 /* LaunchScreen.storyboard */; };
+		6B26689E1D1F901400B7ECF1 /* slackchat_test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26689D1D1F901400B7ECF1 /* slackchat_test1Tests.swift */; };
+		6B2668A91D1F901400B7ECF1 /* slackchat_test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668A81D1F901400B7ECF1 /* slackchat_test1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B26689A1D1F901400B7ECF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B26687A1D1F901400B7ECF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2668811D1F901400B7ECF1;
+			remoteInfo = "slackchat-test1";
+		};
+		6B2668A51D1F901400B7ECF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B26687A1D1F901400B7ECF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2668811D1F901400B7ECF1;
+			remoteInfo = "slackchat-test1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B2668821D1F901400B7ECF1 /* slackchat-test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slackchat-test1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2668851D1F901400B7ECF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B2668871D1F901400B7ECF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B26688A1D1F901400B7ECF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B26688D1D1F901400B7ECF1 /* slackchat_test1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = slackchat_test1.xcdatamodel; sourceTree = "<group>"; };
+		6B26688F1D1F901400B7ECF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B2668921D1F901400B7ECF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B2668941D1F901400B7ECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2668991D1F901400B7ECF1 /* slackchat-test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slackchat-test1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B26689D1D1F901400B7ECF1 /* slackchat_test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slackchat_test1Tests.swift; sourceTree = "<group>"; };
+		6B26689F1D1F901400B7ECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2668A41D1F901400B7ECF1 /* slackchat-test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slackchat-test1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2668A81D1F901400B7ECF1 /* slackchat_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slackchat_test1UITests.swift; sourceTree = "<group>"; };
+		6B2668AA1D1F901400B7ECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B26687F1D1F901400B7ECF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2668961D1F901400B7ECF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2668A11D1F901400B7ECF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2668791D1F901400B7ECF1 = {
+			isa = PBXGroup;
+			children = (
+				6B2668841D1F901400B7ECF1 /* slackchat-test1 */,
+				6B26689C1D1F901400B7ECF1 /* slackchat-test1Tests */,
+				6B2668A71D1F901400B7ECF1 /* slackchat-test1UITests */,
+				6B2668831D1F901400B7ECF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B2668831D1F901400B7ECF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2668821D1F901400B7ECF1 /* slackchat-test1.app */,
+				6B2668991D1F901400B7ECF1 /* slackchat-test1Tests.xctest */,
+				6B2668A41D1F901400B7ECF1 /* slackchat-test1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B2668841D1F901400B7ECF1 /* slackchat-test1 */ = {
+			isa = PBXGroup;
+			children = (
+				6B2668851D1F901400B7ECF1 /* AppDelegate.swift */,
+				6B2668871D1F901400B7ECF1 /* ViewController.swift */,
+				6B2668891D1F901400B7ECF1 /* Main.storyboard */,
+				6B26688F1D1F901400B7ECF1 /* Assets.xcassets */,
+				6B2668911D1F901400B7ECF1 /* LaunchScreen.storyboard */,
+				6B2668941D1F901400B7ECF1 /* Info.plist */,
+				6B26688C1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld */,
+			);
+			path = "slackchat-test1";
+			sourceTree = "<group>";
+		};
+		6B26689C1D1F901400B7ECF1 /* slackchat-test1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B26689D1D1F901400B7ECF1 /* slackchat_test1Tests.swift */,
+				6B26689F1D1F901400B7ECF1 /* Info.plist */,
+			);
+			path = "slackchat-test1Tests";
+			sourceTree = "<group>";
+		};
+		6B2668A71D1F901400B7ECF1 /* slackchat-test1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B2668A81D1F901400B7ECF1 /* slackchat_test1UITests.swift */,
+				6B2668AA1D1F901400B7ECF1 /* Info.plist */,
+			);
+			path = "slackchat-test1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2668811D1F901400B7ECF1 /* slackchat-test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2668AD1D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1" */;
+			buildPhases = (
+				6B26687E1D1F901400B7ECF1 /* Sources */,
+				6B26687F1D1F901400B7ECF1 /* Frameworks */,
+				6B2668801D1F901400B7ECF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "slackchat-test1";
+			productName = "slackchat-test1";
+			productReference = 6B2668821D1F901400B7ECF1 /* slackchat-test1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B2668981D1F901400B7ECF1 /* slackchat-test1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2668B01D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1Tests" */;
+			buildPhases = (
+				6B2668951D1F901400B7ECF1 /* Sources */,
+				6B2668961D1F901400B7ECF1 /* Frameworks */,
+				6B2668971D1F901400B7ECF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B26689B1D1F901400B7ECF1 /* PBXTargetDependency */,
+			);
+			name = "slackchat-test1Tests";
+			productName = "slackchat-test1Tests";
+			productReference = 6B2668991D1F901400B7ECF1 /* slackchat-test1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B2668A31D1F901400B7ECF1 /* slackchat-test1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2668B31D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1UITests" */;
+			buildPhases = (
+				6B2668A01D1F901400B7ECF1 /* Sources */,
+				6B2668A11D1F901400B7ECF1 /* Frameworks */,
+				6B2668A21D1F901400B7ECF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2668A61D1F901400B7ECF1 /* PBXTargetDependency */,
+			);
+			name = "slackchat-test1UITests";
+			productName = "slackchat-test1UITests";
+			productReference = 6B2668A41D1F901400B7ECF1 /* slackchat-test1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B26687A1D1F901400B7ECF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "koichi tanaka";
+				TargetAttributes = {
+					6B2668811D1F901400B7ECF1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6B2668981D1F901400B7ECF1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6B2668811D1F901400B7ECF1;
+					};
+					6B2668A31D1F901400B7ECF1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6B2668811D1F901400B7ECF1;
+					};
+				};
+			};
+			buildConfigurationList = 6B26687D1D1F901400B7ECF1 /* Build configuration list for PBXProject "slackchat-test1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B2668791D1F901400B7ECF1;
+			productRefGroup = 6B2668831D1F901400B7ECF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2668811D1F901400B7ECF1 /* slackchat-test1 */,
+				6B2668981D1F901400B7ECF1 /* slackchat-test1Tests */,
+				6B2668A31D1F901400B7ECF1 /* slackchat-test1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2668801D1F901400B7ECF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2668931D1F901400B7ECF1 /* LaunchScreen.storyboard in Resources */,
+				6B2668901D1F901400B7ECF1 /* Assets.xcassets in Resources */,
+				6B26688B1D1F901400B7ECF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2668971D1F901400B7ECF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2668A21D1F901400B7ECF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B26687E1D1F901400B7ECF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2668881D1F901400B7ECF1 /* ViewController.swift in Sources */,
+				6B26688E1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld in Sources */,
+				6B2668861D1F901400B7ECF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2668951D1F901400B7ECF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B26689E1D1F901400B7ECF1 /* slackchat_test1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2668A01D1F901400B7ECF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2668A91D1F901400B7ECF1 /* slackchat_test1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B26689B1D1F901400B7ECF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2668811D1F901400B7ECF1 /* slackchat-test1 */;
+			targetProxy = 6B26689A1D1F901400B7ECF1 /* PBXContainerItemProxy */;
+		};
+		6B2668A61D1F901400B7ECF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2668811D1F901400B7ECF1 /* slackchat-test1 */;
+			targetProxy = 6B2668A51D1F901400B7ECF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B2668891D1F901400B7ECF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B26688A1D1F901400B7ECF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B2668911D1F901400B7ECF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2668921D1F901400B7ECF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B2668AB1D1F901400B7ECF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2668AC1D1F901400B7ECF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B2668AE1D1F901400B7ECF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "slackchat-test1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B2668AF1D1F901400B7ECF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "slackchat-test1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B2668B11D1F901400B7ECF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "slackchat-test1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slackchat-test1.app/slackchat-test1";
+			};
+			name = Debug;
+		};
+		6B2668B21D1F901400B7ECF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "slackchat-test1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slackchat-test1.app/slackchat-test1";
+			};
+			name = Release;
+		};
+		6B2668B41D1F901400B7ECF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "slackchat-test1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "slackchat-test1";
+			};
+			name = Debug;
+		};
+		6B2668B51D1F901400B7ECF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "slackchat-test1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "slackchat-test1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B26687D1D1F901400B7ECF1 /* Build configuration list for PBXProject "slackchat-test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2668AB1D1F901400B7ECF1 /* Debug */,
+				6B2668AC1D1F901400B7ECF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2668AD1D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2668AE1D1F901400B7ECF1 /* Debug */,
+				6B2668AF1D1F901400B7ECF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B2668B01D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2668B11D1F901400B7ECF1 /* Debug */,
+				6B2668B21D1F901400B7ECF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B2668B31D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2668B41D1F901400B7ECF1 /* Debug */,
+				6B2668B51D1F901400B7ECF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B26688C1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B26688D1D1F901400B7ECF1 /* slackchat_test1.xcdatamodel */,
+			);
+			currentVersion = 6B26688D1D1F901400B7ECF1 /* slackchat_test1.xcdatamodel */;
+			path = slackchat_test1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B26687A1D1F901400B7ECF1 /* Project object */;
+}
