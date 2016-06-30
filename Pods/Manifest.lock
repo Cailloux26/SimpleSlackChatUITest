@@ -1,0 +1,28 @@
+PODS:
+  - Firebase (2.5.1)
+  - FirebaseRxSwiftExtensions (2.0.10):
+    - Firebase (~> 2.5.1)
+    - FirebaseOSX (~> 2.5.1)
+    - RxSwift (~> 2.5.0)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.5.0)
+  - SlackTextViewController (1.9.3)
+
+DEPENDENCIES:
+  - Firebase
+  - FirebaseRxSwiftExtensions
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+  - SlackTextViewController
+
+SPEC CHECKSUMS:
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  FirebaseRxSwiftExtensions: 28a6b27537395c3b252f3a0b1508aec86a2d9e5c
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  SlackTextViewController: bd2a34c188d4f7dec93cf42388f38551263fac82
+
+PODFILE CHECKSUM: 47ad18de0a1887196c6aec96dfd1ebb0db82c687
+
+COCOAPODS: 1.0.1

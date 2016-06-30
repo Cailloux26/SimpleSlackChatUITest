@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20FC11917A2FF7BED7376BA8 /* Pods_slackchat_test1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F45266C900EA1C5DC8E9C8 /* Pods_slackchat_test1Tests.framework */; };
 		6B2668861D1F901400B7ECF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668851D1F901400B7ECF1 /* AppDelegate.swift */; };
 		6B2668881D1F901400B7ECF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668871D1F901400B7ECF1 /* ViewController.swift */; };
 		6B26688B1D1F901400B7ECF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2668891D1F901400B7ECF1 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		6B2668931D1F901400B7ECF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2668911D1F901400B7ECF1 /* LaunchScreen.storyboard */; };
 		6B26689E1D1F901400B7ECF1 /* slackchat_test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26689D1D1F901400B7ECF1 /* slackchat_test1Tests.swift */; };
 		6B2668A91D1F901400B7ECF1 /* slackchat_test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668A81D1F901400B7ECF1 /* slackchat_test1UITests.swift */; };
+		6B2668BB1D1F9B6300B7ECF1 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668BA1D1F9B6300B7ECF1 /* MessageModel.swift */; };
+		6B2668C21D235CA200B7ECF1 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2668C01D235CA200B7ECF1 /* MessageCell.swift */; };
+		6B2668C31D235CA200B7ECF1 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2668C11D235CA200B7ECF1 /* MessageCell.xib */; };
+		CB0DEF06714A0DED4317438F /* Pods_slackchat_test1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CE92532022C7CF6E6D870F /* Pods_slackchat_test1UITests.framework */; };
+		F833408F1D1BE321CC64387B /* Pods_slackchat_test1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331A66C40F6C0CD2ED63385 /* Pods_slackchat_test1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0738984DEF11BBF39DF14376 /* Pods-slackchat-test1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slackchat-test1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slackchat-test1UITests/Pods-slackchat-test1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09CA646281ADBC59FBB88981 /* Pods-slackchat-test1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slackchat-test1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-slackchat-test1Tests/Pods-slackchat-test1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5ACE0DD2B6A0A406154AA20D /* Pods-slackchat-test1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slackchat-test1.release.xcconfig"; path = "Pods/Target Support Files/Pods-slackchat-test1/Pods-slackchat-test1.release.xcconfig"; sourceTree = "<group>"; };
 		6B2668821D1F901400B7ECF1 /* slackchat-test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slackchat-test1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2668851D1F901400B7ECF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B2668871D1F901400B7ECF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		6B2668A41D1F901400B7ECF1 /* slackchat-test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slackchat-test1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2668A81D1F901400B7ECF1 /* slackchat_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slackchat_test1UITests.swift; sourceTree = "<group>"; };
 		6B2668AA1D1F901400B7ECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2668BA1D1F9B6300B7ECF1 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		6B2668C01D235CA200B7ECF1 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6B2668C11D235CA200B7ECF1 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		6EA5BA1DD70DAA979C4E9B13 /* Pods-slackchat-test1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slackchat-test1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slackchat-test1Tests/Pods-slackchat-test1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84F45266C900EA1C5DC8E9C8 /* Pods_slackchat_test1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slackchat_test1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A6E9AD965AC885507CB51E /* Pods-slackchat-test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slackchat-test1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slackchat-test1/Pods-slackchat-test1.debug.xcconfig"; sourceTree = "<group>"; };
+		A331A66C40F6C0CD2ED63385 /* Pods_slackchat_test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slackchat_test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CE92532022C7CF6E6D870F /* Pods_slackchat_test1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slackchat_test1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA11113057C03258319165D /* Pods-slackchat-test1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slackchat-test1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-slackchat-test1UITests/Pods-slackchat-test1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F833408F1D1BE321CC64387B /* Pods_slackchat_test1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FC11917A2FF7BED7376BA8 /* Pods_slackchat_test1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0DEF06714A0DED4317438F /* Pods_slackchat_test1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				6B26689C1D1F901400B7ECF1 /* slackchat-test1Tests */,
 				6B2668A71D1F901400B7ECF1 /* slackchat-test1UITests */,
 				6B2668831D1F901400B7ECF1 /* Products */,
+				6F6BEFB11B3A4940504B0905 /* Pods */,
+				A3438C0B26BDF737092723F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +129,9 @@
 				6B2668911D1F901400B7ECF1 /* LaunchScreen.storyboard */,
 				6B2668941D1F901400B7ECF1 /* Info.plist */,
 				6B26688C1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld */,
+				6B2668BA1D1F9B6300B7ECF1 /* MessageModel.swift */,
+				6B2668C01D235CA200B7ECF1 /* MessageCell.swift */,
+				6B2668C11D235CA200B7ECF1 /* MessageCell.xib */,
 			);
 			path = "slackchat-test1";
 			sourceTree = "<group>";
@@ -128,6 +154,29 @@
 			path = "slackchat-test1UITests";
 			sourceTree = "<group>";
 		};
+		6F6BEFB11B3A4940504B0905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88A6E9AD965AC885507CB51E /* Pods-slackchat-test1.debug.xcconfig */,
+				5ACE0DD2B6A0A406154AA20D /* Pods-slackchat-test1.release.xcconfig */,
+				6EA5BA1DD70DAA979C4E9B13 /* Pods-slackchat-test1Tests.debug.xcconfig */,
+				09CA646281ADBC59FBB88981 /* Pods-slackchat-test1Tests.release.xcconfig */,
+				0738984DEF11BBF39DF14376 /* Pods-slackchat-test1UITests.debug.xcconfig */,
+				FBA11113057C03258319165D /* Pods-slackchat-test1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3438C0B26BDF737092723F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A331A66C40F6C0CD2ED63385 /* Pods_slackchat_test1.framework */,
+				84F45266C900EA1C5DC8E9C8 /* Pods_slackchat_test1Tests.framework */,
+				C1CE92532022C7CF6E6D870F /* Pods_slackchat_test1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B2668AD1D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1" */;
 			buildPhases = (
+				D5A7E50555F5D89A3CF58576 /* [CP] Check Pods Manifest.lock */,
 				6B26687E1D1F901400B7ECF1 /* Sources */,
 				6B26687F1D1F901400B7ECF1 /* Frameworks */,
 				6B2668801D1F901400B7ECF1 /* Resources */,
+				88E70688E9CF7DBFEF24E3AF /* [CP] Embed Pods Frameworks */,
+				3348777167D4CD869E8CFAC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B2668B01D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1Tests" */;
 			buildPhases = (
+				2D5412C53E210B16B27EFDCA /* [CP] Check Pods Manifest.lock */,
 				6B2668951D1F901400B7ECF1 /* Sources */,
 				6B2668961D1F901400B7ECF1 /* Frameworks */,
 				6B2668971D1F901400B7ECF1 /* Resources */,
+				B7E4DA25A5D0AF3F0D013DAC /* [CP] Embed Pods Frameworks */,
+				57C4E89A26CFB071BB591115 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B2668B31D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1UITests" */;
 			buildPhases = (
+				5F994A12260F36704B081F37 /* [CP] Check Pods Manifest.lock */,
 				6B2668A01D1F901400B7ECF1 /* Sources */,
 				6B2668A11D1F901400B7ECF1 /* Frameworks */,
 				6B2668A21D1F901400B7ECF1 /* Resources */,
+				2C3F181605C75BC980EED0B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B2668931D1F901400B7ECF1 /* LaunchScreen.storyboard in Resources */,
+				6B2668C31D235CA200B7ECF1 /* MessageCell.xib in Resources */,
 				6B2668901D1F901400B7ECF1 /* Assets.xcassets in Resources */,
 				6B26688B1D1F901400B7ECF1 /* Main.storyboard in Resources */,
 			);
@@ -254,11 +312,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C3F181605C75BC980EED0B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slackchat-test1UITests/Pods-slackchat-test1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5412C53E210B16B27EFDCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3348777167D4CD869E8CFAC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slackchat-test1/Pods-slackchat-test1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C4E89A26CFB071BB591115 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slackchat-test1Tests/Pods-slackchat-test1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F994A12260F36704B081F37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88E70688E9CF7DBFEF24E3AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slackchat-test1/Pods-slackchat-test1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E4DA25A5D0AF3F0D013DAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slackchat-test1Tests/Pods-slackchat-test1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A7E50555F5D89A3CF58576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B26687E1D1F901400B7ECF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2668BB1D1F9B6300B7ECF1 /* MessageModel.swift in Sources */,
+				6B2668C21D235CA200B7ECF1 /* MessageCell.swift in Sources */,
 				6B2668881D1F901400B7ECF1 /* ViewController.swift in Sources */,
 				6B26688E1D1F901400B7ECF1 /* slackchat_test1.xcdatamodeld in Sources */,
 				6B2668861D1F901400B7ECF1 /* AppDelegate.swift in Sources */,
@@ -403,8 +586,17 @@
 		};
 		6B2668AE1D1F901400B7ECF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A6E9AD965AC885507CB51E /* Pods-slackchat-test1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/Firebase\"",
+					"\"$(SRCROOT)/Pods/FirebaseRxSwiftExtensions\"",
+					"\"$(SRCROOT)/Pods/RxCocoa\"",
+					"\"$(SRCROOT)/Pods/RxSwift\"",
+					"\"$(SRCROOT)/Pods/SlackTextViewController\"",
+				);
 				INFOPLIST_FILE = "slackchat-test1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1";
@@ -414,8 +606,17 @@
 		};
 		6B2668AF1D1F901400B7ECF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACE0DD2B6A0A406154AA20D /* Pods-slackchat-test1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/Firebase\"",
+					"\"$(SRCROOT)/Pods/FirebaseRxSwiftExtensions\"",
+					"\"$(SRCROOT)/Pods/RxCocoa\"",
+					"\"$(SRCROOT)/Pods/RxSwift\"",
+					"\"$(SRCROOT)/Pods/SlackTextViewController\"",
+				);
 				INFOPLIST_FILE = "slackchat-test1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.attojs.slackchat-test1";
@@ -425,6 +626,7 @@
 		};
 		6B2668B11D1F901400B7ECF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA5BA1DD70DAA979C4E9B13 /* Pods-slackchat-test1Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "slackchat-test1Tests/Info.plist";
@@ -437,6 +639,7 @@
 		};
 		6B2668B21D1F901400B7ECF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CA646281ADBC59FBB88981 /* Pods-slackchat-test1Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "slackchat-test1Tests/Info.plist";
@@ -449,6 +652,7 @@
 		};
 		6B2668B41D1F901400B7ECF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0738984DEF11BBF39DF14376 /* Pods-slackchat-test1UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "slackchat-test1UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +664,7 @@
 		};
 		6B2668B51D1F901400B7ECF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA11113057C03258319165D /* Pods-slackchat-test1UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "slackchat-test1UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +693,7 @@
 				6B2668AF1D1F901400B7ECF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B2668B01D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +702,7 @@
 				6B2668B21D1F901400B7ECF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B2668B31D1F901400B7ECF1 /* Build configuration list for PBXNativeTarget "slackchat-test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +711,7 @@
 				6B2668B51D1F901400B7ECF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
